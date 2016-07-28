@@ -1,0 +1,89 @@
+header{
+font-size:62px;
+}
+
+body{
+background-color: black;
+}
+
+#wrapper { 
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+background-image:url("images/home_background.jpg"); 
+}
+
+header {
+background-color: #7FFFFFFF;
+}
+
+h1 { 
+margin: 0; 
+padding: 10px;
+}
+
+nav { 
+float: left; 
+width: 25%;
+padding: 0;
+}
+
+nav ul{
+list-style-type:none;
+margin: 0;
+background-color: black;
+position: fixed;
+height: 29%;
+overflow: auto;
+}
+
+nav a{
+text-decoration:none;
+display:block;
+padding:8px 16px;
+color: white;
+}
+
+nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+nav a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+main { 
+margin-left: 160px;
+padding: 10px;
+background-color:#7FFFFFFF;
+
+}
+
+footer {
+text-align: center;
+font-style: italic;
+background-color:#7FFFFFFF;
+}	
+
+#jobs{
+margin-bottom:400px;
+}
+
+#aboutus{
+margin-top:250px;
+margin-bottom:200px;
+}
+
+#gallery{
+margin-bottom:500px;
+position:relative;
+}				
+
+#gallery li { display: inline; float: left; padding: 10px; }
+
+#gallery span { display: none; }
+
+#gallery a:hover span { display: block; position: absolute;
+         top: 10px; left: 300px; text-align: center; }
